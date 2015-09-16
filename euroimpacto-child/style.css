@@ -9,13 +9,8 @@ Version: 1.0.0
 License:
 License URI:
 */
+h1 a {
+  color: red; }
 
-/*************** ADD CUSTOM CSS HERE.   ***************/
-
-
-
-@media only screen and (max-width: 48em) {
-/*************** ADD MOBILE ONLY CSS HERE  ***************/
-
-
-}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImhlYWRlci5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7O0VBVUU7QUFHQyxFQUFFLENBQUMsQ0FBQyxDQUFGO0VBQ0YsS0FBSyxFQUFFLEdBQUksR0FEUiIsImZpbGUiOiJoZWFkZXIuY3NzIn0= */
+/*# sourceMappingURL=style.css.map */
