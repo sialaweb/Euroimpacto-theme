@@ -61,7 +61,7 @@ gulp.task('sass', function() {
 		.pipe(gulp.dest(output.css))
 		.pipe(sourcemaps.write('.'))
 		.pipe(gulp.dest(output.css))
-		.pipe(browserSync.reload({stream: true}));
+		// .pipe(browserSync.reload({stream: true}));
 });
 
 //--------------------------------------------------------------
@@ -94,7 +94,7 @@ gulp.task('watch', function() {
 	gulp.watch(src.js, ['js']);
 	gulp.watch(src.sass, ['sass']);
 	gulp.watch(src.img, ['img']);
-	gulp.watch(output.html).on("change", browserSync.reload);
+	// gulp.watch(output.html).on("change", browserSync.reload);
 });
 
 //--------------------------------------------------------------
