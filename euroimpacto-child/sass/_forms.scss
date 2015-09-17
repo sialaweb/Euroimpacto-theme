@@ -1,0 +1,40 @@
+
+input[type="search"] {
+   border-color: #fff;
+   box-shadow: none;
+   transition: width 0.55s, ease-in-out;
+   &:focus {
+      background: #fff;
+      box-shadow: none;
+      border-color: #fff;
+      width: 250px;
+   }
+}
+
+// .ux-search-box {
+//    width: 250px; para el efecto hover colocarlo responsive
+// }
+
+button#yith-searchsubmit {
+   border-radius: 15px 0 0 15px;
+}
+
+.yith-s {
+   border-radius: 0 15px 15px 0;
+}
+
+.dark-header #masthead .social-icons a.icon {
+   border: none;
+
+      span {
+         line-height: 35px;
+      }
+}
+
+.footer.light {
+   background-color: $vinotinto !important;
+
+   a, .textwidget, .widget-title {
+      color: #fff !important;
+   }
+}

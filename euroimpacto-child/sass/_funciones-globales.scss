@@ -1,0 +1,30 @@
+
+body {
+   margin: 0;
+   padding: 0;
+   height: 100%;
+}
+
+#wrapper {
+   min-height: 100%;
+   position: relative;
+}
+
+h3.section-title {
+   border: 4px solid $vinotinto;
+   
+   &.title_bold_center span {
+      border: 0;
+   }
+}
+
+
+//--------------------------------------------------------------
+//botones
+//--------------------------------------------------------------
+
+.button.secondary, .button.secondary {
+   border-color: #fff !important;
+   background-color: #fff !important;
+   color: $vinotinto;
+}

@@ -76,6 +76,6 @@ global $flatsome_opt;
 } ?>
 
 <?php wp_footer(); ?>
-<p class="TK">Realizado por <a href="http://Sialaweb.com/" title="Sialaweb"> Sialaweb.com </a></p>
+
 </body>
 </html>
