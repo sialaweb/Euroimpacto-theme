@@ -31,7 +31,7 @@
 <div itemscope itemtype="http://schema.org/Product" id="product-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 <div class="row">
-        <div class="large-8 columns product-gallery">
+        <div class="large-6 columns product-gallery">
             <?php
                 /**
                  * woocommerce_show_product_images hook
@@ -43,7 +43,7 @@
             ?>
         </div><!-- end large-6 - product-gallery -->
 
-        <div class="product-info large-4 small-12 columns left">
+        <div class="product-info large-6 small-12 columns left">
                 <?php
                     /**
                      * woocommerce_single_product_summary hook
