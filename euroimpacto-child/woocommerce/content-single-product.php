@@ -31,7 +31,7 @@
 <div itemscope itemtype="http://schema.org/Product" id="product-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 <div class="row">
-        <div class="large-8 columns product-gallery">        
+        <div class="large-8 columns product-gallery">
             <?php
                 /**
                  * woocommerce_show_product_images hook
@@ -58,6 +58,8 @@
                      */
                     do_action( 'woocommerce_single_product_summary' );
                 ?>
+
+                <a href="http://labs1.sialaweb.com/euroimpacto/cotizar/" class="button expand" target="_blank">Solicita un Presupuesto</a>
 
         </div><!-- end product-info large-4 -->
 
