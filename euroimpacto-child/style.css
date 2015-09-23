@@ -63,7 +63,7 @@ div.text-30-years {
     cursor: pointer; }
 
 .ux-box.ux-text-badge:hover .ux-box-text, .ux-box.ux-text-overlay .ux-box-image, .ux-header-element a:hover, .featured-table.ux_price_table .title, .scroll-to-bullets a strong, .scroll-to-bullets a.active, .scroll-to-bullets a:hover, .tabbed-content.pos_pills ul.tabs li.active a, .ux_hotspot, ul.page-numbers li > span, .label-new.menu-item a:after, .add-to-cart-grid .cart-icon strong:hover, .text-box-primary, .navigation-paging a:hover, .navigation-image a:hover, .next-prev-nav .prod-dropdown > a:hover, ul.page-numbers a:hover, .widget_product_tag_cloud a:hover, .widget_tag_cloud a:hover, .custom-cart-count, .iosSlider .sliderNav a:hover span, .ux-loading i, li.mini-cart.active .cart-icon strong, .product-image .quick-view, .product-image .product-bg, #submit, button, #submit, button, .button, input[type="submit"], li.mini-cart.active .cart-icon strong, .post-item:hover .post-date, .blog_shortcode_item:hover .post-date, .column-slider .sliderNav a:hover, .ux_banner {
-  background-color: #fd9638 !important; }
+  background-color: #FD9638 !important; }
 
 input[type="search"] {
   border-color: #fff;
