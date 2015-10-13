@@ -26,25 +26,25 @@ function shareShortcode($atts, $content = null) {
 	<div class="social-icons share-row">
 		<?php echo $title; ?>
 		<?php if($flatsome_opt['social_icons']['whatsapp']) { ?>
-            <a href="whatsapp://send?text='<?php echo $post_title; ?>'" data-action="share/whatsapp/share"  class="icon icon_whatsapp tip-<?php echo $tooltip ?>"  rel="nofollow" title="<?php _e('comparte en WhatsApp','flatsome'); ?>"><span class="icon-phone"></span></a>
+            <a href="whatsapp://send?text='<?php echo $post_title; ?>'" data-action="share/whatsapp/share"  class="icon icon_whatsapp tip-<?php echo $tooltip ?>"  rel="nofollow" title="<?php _e('Share on WhatsApp','flatsome'); ?>"><span class="icon-phone"></span></a>
 		<?php } ?>
 		<?php if($flatsome_opt['social_icons']['facebook']) { ?>
-			  <a href="http://www.facebook.com/sharer.php?u=<?php echo $permalink; ?>" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px');  return false;"  rel="nofollow" target="_blank" class="icon icon_facebook tip-<?php echo $tooltip ?>" title="<?php _e('comparte en Facebook','flatsome'); ?>"><span class="icon-facebook"></span></a>
+			  <a href="http://www.facebook.com/sharer.php?u=<?php echo $permalink; ?>" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px');  return false;"  rel="nofollow" target="_blank" class="icon icon_facebook tip-<?php echo $tooltip ?>" title="<?php _e('Share on Facebook','flatsome'); ?>"><span class="icon-facebook"></span></a>
 		<?php } ?>
 		<?php if($flatsome_opt['social_icons']['twitter']) { ?>
-            <a href="https://twitter.com/share?url=<?php echo $permalink; ?>" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px');  return false;"  rel="nofollow" target="_blank" class="icon icon_twitter tip-<?php echo $tooltip ?>" title="<?php _e('comparte en Twitter','flatsome'); ?>"><span class="icon-twitter"></span></a>
+            <a href="https://twitter.com/share?url=<?php echo $permalink; ?>" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px');  return false;"  rel="nofollow" target="_blank" class="icon icon_twitter tip-<?php echo $tooltip ?>" title="<?php _e('Share on Twitter','flatsome'); ?>"><span class="icon-twitter"></span></a>
 		<?php } ?>
 		<?php if($flatsome_opt['social_icons']['email']) { ?>
-            <a href="mailto:enteryour@addresshere.com?subject=<?php echo $post_title; ?>&amp;body=<?php _e('Check%20this%20out:','flatsome'); ?>%20<?php echo $permalink; ?>" rel="nofollow" class="icon icon_email tip-<?php echo $tooltip ?>" title="<?php _e('Enviar producto por email','flatsome'); ?>"><span class="icon-envelop"></span></a>
+            <a href="mailto:enteryour@addresshere.com?subject=<?php echo $post_title; ?>&amp;body=<?php _e('Check%20this%20out:','flatsome'); ?>%20<?php echo $permalink; ?>" rel="nofollow" class="icon icon_email tip-<?php echo $tooltip ?>" title="<?php _e('Email to a Friend','flatsome'); ?>"><span class="icon-envelop"></span></a>
 		<?php } ?>
 		<?php if($flatsome_opt['social_icons']['pinterest']) { ?>
-            <a href="//pinterest.com/pin/create/button/?url=<?php echo $permalink; ?>&amp;media=<?php echo $featured_image_2; ?>&amp;description=<?php echo $post_title; ?>" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px');  return false;"  rel="nofollow" target="_blank" class="icon icon_pintrest tip-<?php echo $tooltip ?>" title="<?php _e('Pin en Pinterest','flatsome'); ?>"><span class="icon-pinterest"></span></a>
+            <a href="//pinterest.com/pin/create/button/?url=<?php echo $permalink; ?>&amp;media=<?php echo $featured_image_2; ?>&amp;description=<?php echo $post_title; ?>" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px');  return false;"  rel="nofollow" target="_blank" class="icon icon_pintrest tip-<?php echo $tooltip ?>" title="<?php _e('Pin on Pinterest','flatsome'); ?>"><span class="icon-pinterest"></span></a>
 		<?php } ?>
 		<?php if($flatsome_opt['social_icons']['googleplus']) { ?>
-            <a href="//plus.google.com/share?url=<?php echo $permalink; ?>" target="_blank" class="icon icon_googleplus tip-<?php echo $tooltip ?>" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px');  return false;"  rel="nofollow" title="<?php _e('comparte en Google+','flatsome'); ?>"><span class="icon-google-plus"></span></a>
+            <a href="//plus.google.com/share?url=<?php echo $permalink; ?>" target="_blank" class="icon icon_googleplus tip-<?php echo $tooltip ?>" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px');  return false;"  rel="nofollow" title="<?php _e('Share on Google+','flatsome'); ?>"><span class="icon-google-plus"></span></a>
 		<?php } ?>
 		<?php if($flatsome_opt['social_icons']['vk']) { ?>
-            <a href="//vkontakte.ru/share.php?url=<?php echo $permalink; ?>" target="_blank" class="icon icon_vk tip-<?php echo $tooltip ?>" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px');  return false;"  rel="nofollow" title="<?php _e('comparte en VKontakte','flatsome'); ?>"><span class="icon-vk"></span></a>
+            <a href="//vkontakte.ru/share.php?url=<?php echo $permalink; ?>" target="_blank" class="icon icon_vk tip-<?php echo $tooltip ?>" onclick="window.open(this.href,this.title,'width=500,height=500,top=300px,left=300px');  return false;"  rel="nofollow" title="<?php _e('Share on VKontakte','flatsome'); ?>"><span class="icon-vk"></span></a>
 		<?php } ?>
     </div>
 
@@ -91,10 +91,10 @@ function followShortcode($atts, $content = null) {
     		  <a href="<?php echo $facebook; ?>" target="_blank"  rel="nofollow" class="icon icon_facebook tip-<?php echo $tooltip; ?>" title="<?php _e('Síguenos en Facebook','flatsome') ?>"><span class="icon-facebook"></span></a>
 		<?php }?>
 		<?php if($twitter){?>
-		       <a href="<?php echo $twitter; ?>" target="_blank" rel="nofollow" class="icon icon_twitter tip-<?php echo $tooltip; ?>" title="<?php _e('Síguenos en twitter','flatsome') ?>"><span class="icon-twitter"></span></a>
+		       <a href="<?php echo $twitter; ?>" target="_blank" rel="nofollow" class="icon icon_twitter tip-<?php echo $tooltip; ?>" title="<?php _e('Siguenos en twitter','flatsome') ?>"><span class="icon-twitter"></span></a>
 		<?php }?>
 		<?php if($email){?>
-		       <a href="mailto:<?php echo $email; ?>" target="_blank" rel="nofollow" class="icon icon_email tip-<?php echo $tooltip; ?>" title="<?php _e('Envianos un Email','flatsome') ?>"><span class="icon-envelop"></span></a>
+		       <a href="mailto:<?php echo $email; ?>" target="_blank" rel="nofollow" class="icon icon_email tip-<?php echo $tooltip; ?>" title="<?php _e('Send us an email','flatsome') ?>"><span class="icon-envelop"></span></a>
 		<?php }?>
 		<?php if($pinterest){?>
 		       <a href="<?php echo $pinterest; ?>" target="_blank" rel="nofollow" class="icon icon_pintrest tip-<?php echo $tooltip; ?>" title="<?php _e('Síguenos en Pinterest','flatsome') ?>"><span class="icon-pinterest"></span></a>

@@ -34,7 +34,7 @@ $rand_id = rand();
         id="<?php echo $rand_id; ?>_yith-s"
         class="yith-s"
         data-append-top
-        placeholder="<?php echo esc_attr( get_option('yith_wcas_search_input_label') ) ?>"
+        placeholder="Búsqueda de productos"
         data-loader-icon="<?php echo esc_attr( str_replace( '"', '', apply_filters('yith_wcas_ajax_search_icon', '') ) ) ?>"
         data-min-chars="<?php echo esc_attr( get_option('yith_wcas_min_chars') ); ?>" />
       </div><!-- input -->

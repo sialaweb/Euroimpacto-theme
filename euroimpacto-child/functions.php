@@ -7,3 +7,8 @@ function scrits_forms() {
 }
 
 add_action( 'wp_enqueue_scripts', 'scrits_forms' );
+
+add_action('after_setup_theme', 'my_theme_setup');
+function my_theme_setup(){
+    load_theme_textdomain('euroimpacto-child', get_template_directory() . '/languages');
+}

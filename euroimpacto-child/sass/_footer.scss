@@ -1,0 +1,33 @@
+
+.contacto {
+
+   p {
+      padding-bottom: 0;
+      margin-bottom: 0;
+
+      span.direccion {
+         font-weight: bold;
+         font-size: 1.3em;
+      }
+   }
+}
+
+.iconos-footer {
+   float: left;
+   font-size: 25px;
+   line-height: 25px;
+}
+
+.titulos-footer {
+   color: #fff;
+   margin-left: 18px;
+   padding-left: 18px;
+   margin-top: 10px;
+}
+//para pagina contactanos
+.titulos-dark {
+   color: $vinotinto;
+   margin-left: 18px;
+   padding-left: 18px;
+   margin-top: 10px;
+}
