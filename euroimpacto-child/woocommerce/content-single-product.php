@@ -59,7 +59,7 @@
                     do_action( 'woocommerce_single_product_summary' );
                 ?>
 
-                <a href="http://labs1.sialaweb.com/euroimpacto/cotizar/" class="button expand" target="_blank">Solicita un Presupuesto</a>
+                <a href="http://www.euroimpacto.com/cotizar/" class="button expand" target="_blank">Solicita un Presupuesto</a>
 
         </div><!-- end product-info large-4 -->
 

@@ -81,6 +81,6 @@
   <h1 itemprop="name" class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
   <div class="tx-div small"></div>
   <?php do_action( 'woocommerce_single_product_lightbox_summary' ); ?>
-  <a href="http://labs1.sialaweb.com/euroimpacto/cotizar/" class="button expand" target="_blank">Solicita un Presupuesto</a>
+  <a href="http://www.euroimpacto.com/cotizar/" class="button expand" target="_blank">Solicita un Presupuesto</a>
   </div>
 </div>

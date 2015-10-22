@@ -5,7 +5,7 @@
 
 global $flatsome_opt,$page;
 ?>
-<?php 
+<?php
 // BLOG NORMAL STYLE
 if(!isset($flatsome_opt['blog_style']) || $flatsome_opt['blog_style'] == 'blog-normal'){ ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -74,13 +74,13 @@ if(!isset($flatsome_opt['blog_style']) || $flatsome_opt['blog_style'] == 'blog-n
 		<?php endif; // End if 'post' == get_post_type() ?>
 
 		<?php if ( ! post_password_required() && ( comments_open() || '0' != get_comments_number() ) ) : ?>
-		<span class="comments-link right"><?php comments_popup_link( __( 'Leave a comment', 'flatsome' ), __( '<strong>1</strong> Comment', 'flatsome' ), __( '<strong>%</strong> Comments', 'flatsome' ) ); ?></span>
+		<span class="comments-link right"><?php comments_popup_link( __( 'Deja un comentario', 'flatsome' ), __( '<strong>1</strong> Comment', 'flatsome' ), __( '<strong>%</strong> Comments', 'flatsome' ) ); ?></span>
 		<?php endif; ?>
 	</footer><!-- .entry-meta -->
 </article><!-- #post-## -->
 
 
-<?php } 
+<?php }
 // BLOG LIST STYLE
 else if($flatsome_opt['blog_style'] == 'blog-list') { ?>
 <div class="blog-list-style">
@@ -120,17 +120,17 @@ else if($flatsome_opt['blog_style'] == 'blog-list') { ?>
 		<?php if ( 'post' == get_post_type() ) : ?>
 		<div class="entry-meta">
 			<?php flatsome_posted_on(); ?>  <?php if ( ! post_password_required() && ( comments_open() || '0' != get_comments_number() ) ) : ?>
-		<span class="comments-link right"><?php comments_popup_link( __( 'Leave a comment', 'flatsome' ), __( '<strong>1</strong> Comment', 'flatsome' ), __( '<strong>%</strong> Comments', 'flatsome' ) ); ?></span>
+		<span class="comments-link right"><?php comments_popup_link( __( 'Deja un comentario', 'flatsome' ), __( '<strong>1</strong> Comment', 'flatsome' ), __( '<strong>%</strong> Comments', 'flatsome' ) ); ?></span>
 		<?php endif; ?>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</div><!-- .entry-content -->
 	</div><!-- .large-8 -->
 </div><!-- .row -->
-	
+
 </article><!-- #post-## -->
 </div><!-- .blog-list-style -->
-<?php } 
+<?php }
 
 
 // BLOG PINTEREST STYLE
@@ -168,7 +168,7 @@ else if($flatsome_opt['blog_style'] == 'blog-pinterest') { ?>
 
 		<?php if ( 'post' == get_post_type() ) : ?>
 		<?php if ( ! post_password_required() && ( comments_open() || '0' != get_comments_number() ) ) : ?>
-		<span class="comments-link"><?php comments_popup_link( __( 'Leave a comment', 'flatsome' ), __( '<strong>1</strong> Comment', 'flatsome' ), __( '<strong>%</strong> Comments', 'flatsome' ) ); ?></span>
+		<span class="comments-link"><?php comments_popup_link( __( 'Deja un comentario', 'flatsome' ), __( '<strong>1</strong> Comment', 'flatsome' ), __( '<strong>%</strong> Comments', 'flatsome' ) ); ?></span>
 		<?php endif; ?>
 		<?php endif; ?>
 
@@ -183,7 +183,7 @@ else if($flatsome_opt['blog_style'] == 'blog-pinterest') { ?>
 			</span>
 			<?php endif; // End if $tags_list ?>
 	</div><!-- .entry-content -->
-	
+
 </article><!-- #post-## -->
 </div>
 <?php } ?>
